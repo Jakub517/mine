@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <link rel="stylesheet" type="text/css" href="shop.css">
+<body>
+  <div id="header">
+    <div id="site-name">
+      <h1><a href="index.html"><span style="color: rgb(0, 89, 255);">3MINE</span></a></h1>
+    </div>
+    <div id="navigation">
+      <a href="shop.html">Shop</a>
+      <a href="info.html">Info</a>
+      <a href="pravidla.html">Pravidla</a>
+    </div>
+  </div>
+  <div id="content">
+    <h1><span style="color: rgb(0, 174, 255);">Obchod 3MINE</span></h1>
+    <div id="shop-items">
+      <div class="shop-item">
+        <h2>Farmer - VIP</h2>
+        <p>Hodnota: 99Kč</p>
+        <button class="shop-button" onclick="showModal()">Koupit</button>
+      </div>
+      <div class="shop-item">
+        <h2>Fighter - VIP</h2>
+        <p>Hodnota: 199Kč</p>
+        <button class="shop-button" onclick="showModal()">Koupit</button>
+      </div>
+      <div class="shop-item">
+        <h2>Legend - VIP</h2>
+        <p>Hodnota: 499Kč</p>
+        <button class="shop-button" onclick="showModal()">Koupit</button>
+      </div>
+      <div class="shop-item">
+        <h2>Boss - VIP</h2>
+        <p>Hodnota: 999Kč</p>
+        <button class="shop-button" onclick="showModal()">Koupit</button>
+      </div>
+    </div>
+  </div>
+  <div id="footer">
+    &copy; 2023 3MINE | <a href="pravidla.html">Ochrana osobních údajů</a> | Kontakt: <a href="mailto:info@3mine.eu">info@3mine.eu</a> | Desing by: <b>Jakub3330</b>
+  </div>
+  <div id="modal">
+    <div class="modal-content">
+      <h2>Produkt nelze koupit</h2>
+      <p>Na serveru probíhají eventy a soutěže, kde můžete získat skvělé odměny.</p>
+      <div class="modal-buttons">
+        <button class="modal-button buy" onclick="hideModal()">Zavřít</button>
+      </div>
+    </div>
+  </div>
+  <script src="shop.js"></script>
+</body>
+</html>
