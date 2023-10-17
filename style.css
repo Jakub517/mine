@@ -62,7 +62,7 @@ html, body {
     padding: 20px;
     margin: 10px;
     border-radius: 10px;
-    box-shadow: 0 4px 6px rgba(158, 5, 5, 0.1);
+    box-shadow: 0 4px 6px rgba(74, 5, 158, 0.1);
     max-width: 400px;
     width: 100%;
     display: flex;
@@ -74,7 +74,7 @@ html, body {
 
   .news:hover {
     transform: scale(1.05);
-    box-shadow: 0 6px 8px rgba(168, 3, 3, 0.2);
+    box-shadow: 0 6px 8px rgba(11, 3, 255, 0.2);
   }
 
   .news:active {
@@ -221,7 +221,7 @@ html, body {
   }
 
   #team {
-    color:#bc3609;
+    color:#070e6e;
     margin-left: 20px;
     max-width: 200px;
   }
@@ -230,4 +230,36 @@ html, body {
     color:rgb(178, 175, 175);
     margin-left: 20px;
     max-width: 500px;
+  }
+
+  #formular-button-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  #formular-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 15px;
+    background-color: #2aa600;
+    color: #ecf0f1;
+    border-radius: 50px;
+    font-size: 15px;
+    width: auto;
+    max-width: 500px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+    text-decoration: none
+  }
+
+  #formular-button:hover {
+    background-color: #4fcd00;
+  }
+
+  #formular-logo {
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
   }
